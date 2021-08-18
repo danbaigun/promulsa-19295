@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: rgba(150, 150, 150, 0);
+  height: max-content;
+  width: 100%; }
+
+  .separacionCaja{
+    border: solid 4px black;
+    padding: 5px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: 32px;
+    margin-left: 60px; }
+
+.colortitulo {
+  color: #0a0909; }
+
+.subtitulos__color {
+  color: red; }
+
+footer {
+  height: 300px;
+  background-color: lightblue; }
+
+.footer__texto {
+  font-family: 'Times New Roman', Times, serif; }
+
+p {
+  font-style: oblique;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: blue; }
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif; }
+
+nav {
+  word-spacing: 20px;
+  text-decoration: none; }
+
+.menuNavegacion {
+  text-decoration: none;
+  word-spacing: 1px;
+  position: relative;
+  left: 500px; }
+
+a {
+  text-align: right; }
+
+.header__fondo {
+  background-image: url(../imagenes/promulsa.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px; }
+
+@media (min-width: 768px) {
+  .col-md-1 {
+    width: 8.33333%; }
+  .col-md-2 {
+    width: 16.66667%; }
+  .col-md-3 {
+    width: 25%; }
+  .col-md-4 {
+    width: 33.33333%; }
+  .col-md-5 {
+    width: 41.66667%; }
+  .col-md-6 {
+    width: 50%; }
+  .col-md-7 {
+    width: 58.33333%; }
+  .col-md-8 {
+    width: 66.66667%; }
+  .col-md-9 {
+    width: 75%; }
+  .col-md-10 {
+    width: 83.33333%; }
+  .col-md-11 {
+    width: 91.66667%; }
+  .col-md-12 {
+    width: 100%; } 
+  }
+
+@media (min-width: 1024px) {
+  .col-lg-1 {
+    width: 8.33333%; }
+  .col-lg-2 {
+    width: 16.66667%; }
+  .col-lg-3 {
+    width: 25%; }
+  .col-lg-4 {
+    width: 33.33333%; }
+  .col-lg-5 {
+    width: 41.66667%; }
+  .col-lg-6 {
+    width: 50%; }
+  .col-lg-7 {
+    width: 58.33333%; }
+  .col-lg-8 {
+    width: 66.66667%; }
+  .col-lg-9 {
+    width: 75%; }
+  .col-lg-10 {
+    width: 83.33333%; }
+  .col-lg-11 {
+    width: 91.66667%; }
+  .col-lg-12 {
+    width: 100%; } }
+
+@media (min-width: 1200px) {
+  .col-xl-1 {
+    width: 8.33333%; }
+  .col-xl-2 {
+    width: 16.66667%; }
+  .col-xl-3 {
+    width: 25%; }
+  .col-xl-4 {
+    width: 33.33333%; }
+  .col-xl-5 {
+    width: 41.66667%; }
+  .col-xl-6 {
+    width: 50%; }
+  .col-xl-7 {
+    width: 58.33333%; }
+  .col-xl-8 {
+    width: 66.66667%; }
+  .col-xl-9 {
+    width: 75%; }
+  .col-xl-10 {
+    width: 83.33333%; }
+  .col-xl-11 {
+    width: 91.66667%; }
+  .col-xl-12 {
+    width: 100%; } }

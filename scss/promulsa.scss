@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: rgba(150, 150, 150, 0);
+    height: max-content;
+    width: 100%;
+    
+}
+
+.colortitulo{
+    color: rgb(10, 9, 9);
+}
+
+.subtitulos__color{
+    color: red;
+}
+
+.footer{
+       height: 300px;
+       background-color: lightblue;
+    }
+
+.footer__texto{
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    
+
+
+p{
+    font-style: oblique;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+    
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    word-spacing: 20px;
+    text-decoration: none;
+}
+
+.menuNavegacion{
+    text-decoration: none;
+    word-spacing: 1px;
+    position: relative;
+    left: 500px;
+  
+}
+
+a{
+    text-align:right;
+}
+
+.header__fondo{
+    background-image: url(../imagenes/promulsa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    
+}
+
+@mixin generarColumnas($breakpoint){
+    @for $index from 1 through 12 {
+        .col-#{$breakpoint} -#{$index} {
+            width: (100% / 12) * $index;
+        }
+    }
+}
+@media (min-width: 768px) {
+    @include generarColumnas('md');
+}
+@media (min-width: 1024px) {
+    @include generarColumnas('lg');
+}
+@media (min-width: 1200px) {
+    @include generarColumnas('xl');
+}
+
